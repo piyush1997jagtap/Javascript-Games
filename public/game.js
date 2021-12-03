@@ -148,7 +148,7 @@ function ballPaddleCollision(){
 // CREATE THE BRICKS
 const brick = {
     row : 4,
-    column : 8,
+    column : 15,
     width : 55,
     height : 20,
     offSetLeft : 20,
@@ -292,7 +292,7 @@ function update(){
 // GAME LOOP
 function loop(){
     // CLEAR THE CANVAS
-    ctx.drawImage(BG_IMG, 0, 0, 700, 700);
+    ctx.drawImage(BG_IMG, 0, 0, 1200, 700);
     
     draw();
     
